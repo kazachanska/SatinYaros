@@ -1,0 +1,44 @@
+﻿@media only screen and (max-width: 992px) {
+    .part-right {
+        height: auto;
+        padding: 20px;
+        flex-flow: row nowrap;
+        -webkit-flex-flow: row nowrap;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-title {
+        font-size: 20px;
+    }
+
+    .main-desk {
+        font-size: 15px;
+    }
+
+    .main-section,
+    .part-left,
+    .wrap-main {
+        height: 500px;
+    }
+
+    @media only screen and (max-width: 480px) {
+        .part-left {
+            background: url(../img/fon1.jpg) no-repeat scroll center;
+        }
+
+        .part-right-item {
+            width: 100px;
+            height: 100px;
+        }
+        .sestion-title {
+            font-size: 20px;
+        }
+
+        .sestion-title-lines {
+            height: 10px;
+        }
+
+        .teasers-item {
+        text-align:center;} 
+    }
